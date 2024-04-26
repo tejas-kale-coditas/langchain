@@ -1,0 +1,1 @@
+To run the project, run the command: python cli.py -f "C:\Projects\chatWithDocWithoutLangChainAV\error_handling.pdf" -c 100 -n 1 -q "what is the document about"

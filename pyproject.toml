@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatwithdocwithoutlangchainav"
+version = "0.1.0"
+description = "Example taken from Analytics Vindhya"
+authors = ["Tejas kale"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pypdf2 = "^3.0.1"
+groq = "^0.5.0"
+chromadb = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
