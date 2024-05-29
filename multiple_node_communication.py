@@ -25,7 +25,7 @@ os.environ["LANGCHAIN_API_KEY"] = ''
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "Multi-agent Collaboration"
 
-llm = ChatGroq(model="llama3-70b-8192",api_key='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')
+llm = ChatGroq(model="llama3-70b-8192",api_key='')
 
 doctor_calender = doctor_timeslot.get_doctor_calendar()
 
