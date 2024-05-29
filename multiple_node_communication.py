@@ -21,7 +21,7 @@ from langchain_core.messages import AIMessage
 
 memory = SqliteSaver.from_conn_string(":memory:")
 
-os.environ["LANGCHAIN_API_KEY"] = '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'
+os.environ["LANGCHAIN_API_KEY"] = ''
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "Multi-agent Collaboration"
 
